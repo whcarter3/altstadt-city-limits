@@ -2094,7 +2094,7 @@ a {
   border-radius: 100%;
   position: relative;
 }
-.event-speaker:before,
+/*.event-speaker:before,
 .event-speaker:after {
   content: "";
   position: absolute;
@@ -2140,7 +2140,7 @@ a {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
-}
+}*/
 .event-location-block {
   background: #000;
   padding-bottom: 0;
