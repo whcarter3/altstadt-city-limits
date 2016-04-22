@@ -1952,7 +1952,7 @@ a {
 }
 .logo > svg {
   display: inline-block;
-  max-width: 100%;
+  max-width: 80%;
 }
 .logo.active .fill {
   fill: white;
@@ -1961,7 +1961,7 @@ a {
   transition: all 0.5s;
 }
 .banner {
-  background: url(img/banner.jpg) 50% 50% no-repeat;
+  background: url(img/austin-winter-sunrise.jpg) 50% 50% no-repeat;
   background-size: cover;
   color: #fff;
   padding-top: 3em;
@@ -2094,7 +2094,7 @@ a {
   border-radius: 100%;
   position: relative;
 }
-.event-speaker:before,
+/*.event-speaker:before,
 .event-speaker:after {
   content: "";
   position: absolute;
@@ -2140,7 +2140,7 @@ a {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
-}
+}*/
 .event-location-block {
   background: #000;
   padding-bottom: 0;
