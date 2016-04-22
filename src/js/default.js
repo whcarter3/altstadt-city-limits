@@ -16,7 +16,7 @@ $svg = $('.logo > svg').drawsvg({
 });
 
 function animateLogo() {
-  $svg.drawsvg('animate');  
+  $svg.drawsvg('animate');
 }
 
 animateLogo();
@@ -29,6 +29,21 @@ $('.carousel').swiperight(function() {
 $('.carousel').swipeleft(function() {
   $(this).carousel('next');
 });
+
+var userFeed = new Instafeed({
+  get: 'tagged',
+  tagName: 'altstadtcitylimits',
+  limit: 4,
+  sortBy: 'most-recent',
+  clientId: '2f8c1f8533c74a7b9b5b90ada82d9d54',
+  resolution: 'low_resolution',
+  template: '<div class="item"><img src={{image}}></div>',
+  after: function(){
+    $('.item').first().addClass('active');
+  }
+});
+
+userFeed.run();
 
 // Google Map
 function googleMap() {
