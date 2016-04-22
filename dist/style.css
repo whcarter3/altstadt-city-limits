@@ -2315,6 +2315,14 @@ a {
   margin-left: -150px;
   z-index: 9990;
 }
+
+@media only screen and (max-device-width: 375px) and (orientation: portrait){
+  .location-box{
+    top: 20%;
+    left: 75%;
+    width: 225px;
+  }
+}
 .location {
   padding-bottom: 1em;
 }
